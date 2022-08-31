@@ -1,5 +1,7 @@
 # Astro Lens
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7385ada4-e9d1-449e-9ab0-49602dee4211/deploy-status)](https://app.netlify.com/sites/astro-lens/deploys)
+
 This is **Lens**, a full screen (and entirely responsive) photo gallery design.
 
 ## Commands

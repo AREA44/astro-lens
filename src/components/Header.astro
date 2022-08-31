@@ -1,0 +1,30 @@
+---
+const { title, description, tiwtter, instagram, github, email } = Astro.props;
+---
+
+<header id="header">
+  <h1>{title}</h1>
+  <p>{description}</p>
+  <ul class="icons">
+    <li>
+      <a href={tiwtter} class="icon brands fa-twitter"
+        ><span class="label">Twitter</span>
+      </a>
+    </li>
+    <li>
+      <a href={instagram} class="icon brands fa-instagram"
+        ><span class="label">Instagram</span>
+      </a>
+    </li>
+    <li>
+      <a href={github} class="icon brands fa-github"
+        ><span class="label">Github</span>
+      </a>
+    </li>
+    <li>
+      <a href={email} class="icon fa-envelope"
+        ><span class="label">Email</span>
+      </a>
+    </li>
+  </ul>
+</header>

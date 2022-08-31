@@ -1,0 +1,19 @@
+{
+  "name": "astro-lens",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "AREA44",
+    "url": "https://github.com/AREA44/astro-lens"
+  },
+  "license": "CCA-3.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "1.1.2"
+  }
+}

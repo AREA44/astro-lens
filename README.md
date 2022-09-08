@@ -9,7 +9,7 @@ This is **Lens**, a full screen (and entirely responsive) photo gallery design.
 All commands are run from the root of the project, from a terminal:
 
 | Command           | Action                                       |
-|:----------------  |:-------------------------------------------- |
+| :---------------- | :------------------------------------------- |
 | `npm install`     | Installs dependencies                        |
 | `npm run dev`     | Starts local dev server at `localhost:3000`  |
 | `npm run build`   | Build your production site to `./dist/`      |
@@ -22,11 +22,11 @@ All commands are run from the root of the project, from a terminal:
 Just add your thumbnails to the thumbnails section in [`index.astro`](src/pages/index.astro) in the following format:
 
 ```ts
-	<Thumnail
-		title="Title"
-		href="path/to/images/image.jpg"
-		description="Description"
-	/>
+<Thumnail
+  title="Title"
+  href="path/to/images/image.jpg"
+  description="Description"
+/>
 ```
 
 <!---
@@ -35,12 +35,12 @@ Just add your thumbnails to the thumbnails section in [`index.astro`](src/pages/
 As a full screen experience, the viewer will be subject to changes in its size and, consequently, its aspect ratio. Since your full size images are basically applied as backgrounds to the viewer itself, this means they'll probably (okay, definitely) get cropped. All is not lost, however, as you can use the optional `data-position` attribute to control how the full size image is positioned within the viewer. To do this, simply add it to your thumbnail's `<a>` element and set it to any valid `background-position` value. For example, this:
 
 ```ts
-	<Thumnail
-		title="Title"
-		href="path/to/images/image.jpg"
-		description="Description"
-		data-position="top left"
-	/>
+<Thumnail
+  title="Title"
+  href="path/to/images/image.jpg"
+  description="Description"
+  data-position="top left"
+/>
 ```
 
 positions this particular full size image in the top left corner of the viewer (as opposed to its center, the default), effectively limiting cropping to everything but the top left corner.
